@@ -1,0 +1,26 @@
+{
+  "name": "xtendis-test",
+  "version": "1.0.0",
+  "description": "This repository is used as a proof-of-concept for a happy flow with testing, docker, CI-CD and automatic deployment",
+  "main": "src/app.py",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinj2001/xtendis-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinj2001/xtendis-test/issues"
+  },
+  "homepage": "https://github.com/martinj2001/xtendis-test#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}

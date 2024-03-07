@@ -1,0 +1,16 @@
+name: Test on Pull request
+
+on: pull_request
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up python
+        uses: actions/setup-python@v4
+      - name: INstall dependencies
+        run: pip install -r requirements.txt
+      - name: Run unittests
+        run: pytest
+    
