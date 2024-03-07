@@ -1,4 +1,4 @@
-[![Build and Test with cypress](https://github.com/martinj2001/xtendis-test/actions/workflows/build_test.yml/badge.svg?branch=main)](https://github.com/martinj2001/xtendis-test/actions/workflows/build_test.yml)
+[![Build](https://github.com/martinjanssenn/Xtendis-Demo/actions/workflows/build_test.yml/badge.svg)](https://github.com/martinjanssenn/Xtendis-Demo/actions/workflows/build_test.yml)
 
 # Xtendis Test repository
 This repository is used as a proof-of-concept for a happy flow with testing, docker, CI-CD and automatic deployment
