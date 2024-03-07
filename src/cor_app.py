@@ -7,3 +7,4 @@ def Cor():
 @app.route('/cor5')
 def Cor5():
     return 'Cor Page more'    
+
