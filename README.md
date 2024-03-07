@@ -21,6 +21,9 @@ sudo apt install python3-pip
 ```
 
 ## Installation
+To install all npm packages, run:
+`npm install`
+
 To install the necessary Python components and libraries, first create a virtual Python environment.
 
 To create the virtual environment, run:
@@ -51,8 +54,11 @@ You can now go ahead and run:
 This will start the Flask application on your local machine. 
 
 ## Test the application
-To test the application, run:
+To test the backend application, run:
 `pytest`
 
 This will unittest the full application.
+
+To test the frontend application, run:
+`npx cypress run`
 
