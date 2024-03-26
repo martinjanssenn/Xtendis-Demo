@@ -2,4 +2,4 @@ from __main__ import app
 
 @app.route('/anko')
 def Anko():
-    return 'Anko Page'
+    return 'Pagina: Meneer Groenewegen'
